@@ -126,10 +126,14 @@ x = x(isfinite(x))
 % 删除离群值
 x = x(abs(x-mean(x)) <= 3*std(x))
 
+%% 逻辑索引和标量扩展将非质数设置为 0
+A = magic(4)
+A(~isprime(A)) = 0
 
-
-
-
+B = magic(4)
+k = find(isprime(B))'
+B(k)
+B(k) = NaN
 
 
 
