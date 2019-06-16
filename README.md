@@ -24,3 +24,9 @@ MATLAB quickstart
 ## learning11：特征值与奇异值
 
 ## learning12：非线性函数的运算、函数句柄
+
+## learning13：多变量数据 数据分析
+
+## learning14：数值积分和微分方程
+
+## learningFFT：傅里叶变换
